@@ -1,0 +1,23 @@
+{
+  "base_model": "deepseek-ai/DeepSeek-Prover-V2-7B",
+  "sketch_path": "work/data/Final_sketchdata.jsonl",
+  "out_dir": "work/adapter",
+  "stepwise_train": "work/data/sketch.stepwise.train.jsonl",
+  "stepwise_valid": "work/data/sketch.stepwise.valid.jsonl",
+  "seed": 42,
+  "train_ratio": 0.8,
+  "valid_ratio": 0.05,
+  "test_ratio": 0.15,
+  "max_len": 8192,
+  "epochs": 1.0,
+  "lr": 0.0002,
+  "weight_decay": 0.0,
+  "batch_per_device": 1,
+  "grad_acc": 8,
+  "eval_steps": 20,
+  "save_steps": 200,
+  "logging_steps": 20,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "lora_dropout": 0.05
+}

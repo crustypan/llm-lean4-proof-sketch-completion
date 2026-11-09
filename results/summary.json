@@ -1,0 +1,68 @@
+{
+  "rows": {
+    "data/sketch.raw.test.jsonl.gz": 955,
+    "data/sketch.raw.train.jsonl.gz": 4191,
+    "data/sketch.raw.valid.jsonl.gz": 312,
+    "data/sketch.stepwise.train.jsonl.gz": 11102,
+    "data/sketch.stepwise.valid.jsonl.gz": 835,
+    "data/sketch.train.with_fills.jsonl.gz": 4191,
+    "data/sketch.valid.with_fills.jsonl.gz": 312,
+    "data/Final_sketchdata.jsonl.gz": 5458,
+    "results/lean-filtered-generated_all.jsonl.gz": 739,
+    "results/lean-filtered-holes_all.jsonl.gz": 1986,
+    "results/lean-filtered-skipped_groups.jsonl.gz": 216,
+    "results/sequential-verified-attempts.jsonl.gz": 30560,
+    "results/parallel-verified-attempts.jsonl.gz": 30560
+  },
+  "verified_comparators": {
+    "sequential": {
+      "attempts": 30560,
+      "passed_attempts": 24701,
+      "cases": 955,
+      "passed_attempts_with_sorry_diagnostic": 1269,
+      "pass_at_k": {
+        "1": 775,
+        "12": 888,
+        "24": 904,
+        "32": 908
+      }
+    },
+    "parallel": {
+      "attempts": 30560,
+      "passed_attempts": 23156,
+      "cases": 955,
+      "passed_attempts_with_sorry_diagnostic": 1350,
+      "pass_at_k": {
+        "1": 727,
+        "12": 865,
+        "24": 885,
+        "32": 892
+      }
+    }
+  },
+  "latest_lean_filtered_run": {
+    "generated_all.jsonl": {
+      "complete_hole_groups": 739,
+      "generated_still_has_hole": 0,
+      "rows": 739
+    },
+    "holes_all.jsonl": {
+      "passing_candidate_total": 13831,
+      "tested_candidate_total": 23789,
+      "rows": 1986
+    },
+    "skipped_groups.jsonl": {
+      "rows": 216
+    }
+  },
+  "input_source_benches": {
+    "MiniF2F": 1842,
+    "FormalMATH": 3616
+  },
+  "split_overlap_by_source_bench_and_id": {
+    "sketch.raw.test.jsonl vs sketch.raw.train.jsonl": 0,
+    "sketch.raw.test.jsonl vs sketch.raw.valid.jsonl": 0,
+    "sketch.raw.train.jsonl vs sketch.raw.valid.jsonl": 0
+  },
+  "credential_strings_redacted": {}
+}

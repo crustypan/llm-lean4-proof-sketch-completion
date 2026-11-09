@@ -1,0 +1,17 @@
+work/
+.venv/
+venv/
+env/
+.cache/
+.lake/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.olean
+*.safetensors
+*.pt
+*.bin
+checkpoint-*/
+hf_cache/
+hfcache/
+.DS_Store

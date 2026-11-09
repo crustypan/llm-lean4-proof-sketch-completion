@@ -1,0 +1,26 @@
+{
+  "pretrained": {
+    "original_path": "Projects/Jupyter/SketchFill/before_train/test_runs/20260117-172022/verify_results.jsonl",
+    "original_sha256": "9960ca276e44c7bccd921853254a44cbb41136d972af51e69258f0eeb394c97e",
+    "verification_rows": 580,
+    "successful_exits": 0
+  },
+  "stepwise": {
+    "original_path": "Projects/Jupyter/SketchFill/stepwise_training-3/test_runs/20260122-135029/verify_results.jsonl",
+    "original_sha256": "38c6a233c3f8a858e1305a80fa5fbed3d5931bee371fc468eb439218c4c12717",
+    "verification_rows": 18560,
+    "successful_exits": 14278
+  },
+  "inverted_stepwise": {
+    "original_path": "Projects/Jupyter/SketchFill/stepwise_training-3/test_runs/inverted_filling_test/20260124-225417/verify_results.jsonl",
+    "original_sha256": "b3f60f7176ecc42b608a7e049ff69df9a0e0b517419d87efc2b0ae0889ec6f9c",
+    "verification_rows": 18560,
+    "successful_exits": 11243
+  },
+  "earlier_holewise": {
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_1/test_runs/Sequential_filling_test/20260204-163041/verify_results.jsonl",
+    "original_sha256": "bd64ecef27ecd54c5aee985a005169cdee72952208fd78386f385cb5213798c4",
+    "verification_rows": 25344,
+    "successful_exits": 18413
+  }
+}
