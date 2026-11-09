@@ -1,0 +1,10 @@
+{
+  "artifact": "adapter_model.safetensors",
+  "original_project_relative_path": "Projects/Jupyter/SketchFill/holewise_training_2/runs/stageB_stepwise_qlora/adapter_model.safetensors",
+  "size_bytes": 3427427320,
+  "sha256": "297b0526ba026f1580935dc252a7b4d6807fc698c896f2e33889b55c088815cb",
+  "training_step": 463,
+  "base_model": "deepseek-ai/DeepSeek-Prover-V2-7B",
+  "peft_version": "0.18.0",
+  "storage": "original research storage"
+}
