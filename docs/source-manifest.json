@@ -1,0 +1,289 @@
+[
+  {
+    "published_path": "configs/adapter_config.json",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/runs/stageB_stepwise_qlora/adapter_config.json",
+    "original_sha256": "89ebe65d8e1419e2f8ef25378309851b2db0b4b917ce08ffd2c03f8d8f9e4b68",
+    "published_sha256": "ec51e50a8cb7336f9cfbbb42f095a889ebcc7ab73192120ee2e0e7dd22d41edc",
+    "transformation": "public base-model identifier"
+  },
+  {
+    "published_path": "configs/chat_template.jinja",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/runs/stageB_stepwise_qlora/chat_template.jinja",
+    "original_sha256": "22e97ba043dacf9df1f071a9de9d2bb6b0757491f16e96e810834b86e1641286",
+    "published_sha256": "22e97ba043dacf9df1f071a9de9d2bb6b0757491f16e96e810834b86e1641286",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "configs/run_config.json",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/run_config.json",
+    "original_sha256": "d4ba407be1fb3a00c5f02bcfa5f191ab4d405ad375b843c90525114857965f0f",
+    "published_sha256": "fc5bc482b122c5a05986c539ee43a299c7c553fc7714686872866853721d68c2",
+    "transformation": "portable paths; numeric settings unchanged"
+  },
+  {
+    "published_path": "configs/special_tokens_map.json",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/runs/stageB_stepwise_qlora/special_tokens_map.json",
+    "original_sha256": "6a65c0093fd49fa543b96ac45f939eaf620cf5da9e56611e99d0983a6772166a",
+    "published_sha256": "6a65c0093fd49fa543b96ac45f939eaf620cf5da9e56611e99d0983a6772166a",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "configs/tokenizer.json.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/runs/stageB_stepwise_qlora/tokenizer.json",
+    "original_sha256": "14911cf1a49bee3f69ac30d85ad424c3a9c9f516c572dacad9ab63ea7e16f006",
+    "published_sha256": "308cf55f375b8df002349a4391b169cc1a23b384f23fe9be3711324a14e09ceb",
+    "transformation": "gzip"
+  },
+  {
+    "published_path": "configs/tokenizer_config.json",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/runs/stageB_stepwise_qlora/tokenizer_config.json",
+    "original_sha256": "2ad2ac2148db829053e9148a09391021e3ecee56f928858dfcc65e61c3939939",
+    "published_sha256": "2ad2ac2148db829053e9148a09391021e3ecee56f928858dfcc65e61c3939939",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "data/Final_sketchdata.jsonl.gz",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/tuning_data/Final_sketchdata.jsonl",
+    "original_sha256": "50fb1b62a67009f26f7c7edccb631069e27fe45e96542772d0eb54f0a277d2a1",
+    "published_sha256": "be8a39554eadc724ab4787d5e7a2a7172410a354d0228869e201273e5fa314fa",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "data/sketch.raw.test.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/data/sketch.raw.test.jsonl",
+    "original_sha256": "7fb835be668d9ac34e8bfb9812def8a4780f2d58b4e94444ef17b631b6452356",
+    "published_sha256": "f32ba39a8dadcece3dd6cc965bc7683e22c7e37279531a75ce27699393657d41",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "data/sketch.raw.train.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/data/sketch.raw.train.jsonl",
+    "original_sha256": "4c097a49d426929abcef4b4b814a67bebb30942a850d3f98a1bdbf05f56542a3",
+    "published_sha256": "a1cf0202029a714b4ed0815923e625b9b6f16fee0795d6fb206297ab492231e5",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "data/sketch.raw.valid.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/data/sketch.raw.valid.jsonl",
+    "original_sha256": "591b6006983fc2f99f9cac169ef7b1532a75615a57e6e0c59334783c834fd309",
+    "published_sha256": "f72e0dc5cf9d7ebc10c5185c6127f80826f3189da227e9101fb7af0992c2178a",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "data/sketch.stepwise.train.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/data/sketch.stepwise.train.jsonl",
+    "original_sha256": "b3a9282d7c255d88f79010fb5da2cd4572ffbf82d9a64c43f8520add1b28e207",
+    "published_sha256": "d11c1a5ebb590e41de3d4c01311ca9dd2d1f43e7126d6f9cbda969862cac6788",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "data/sketch.stepwise.valid.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/data/sketch.stepwise.valid.jsonl",
+    "original_sha256": "a10b0815059400d7a6f044de0d4b1db4893ab81e578381fa2446c5cf32e2bdf3",
+    "published_sha256": "9883bce3dae3968f446fca1ffa3d25432043e53098d05c8488bcb40b9b2b67b0",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "data/sketch.train.with_fills.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/data/sketch.train.with_fills.jsonl",
+    "original_sha256": "3fb66069bf439434944f2f1b81737ce4ca9be706a113ace14849f17ba60b3cce",
+    "published_sha256": "290e3e73c493552e196ae45e07396b857da8755eae29c5c5e2eb2c7fd98a02ea",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "data/sketch.valid.with_fills.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/data/sketch.valid.with_fills.jsonl",
+    "original_sha256": "614a099df49f7ec1c465ca4738bae749588742fd206fde4cbff5d840182d15a3",
+    "published_sha256": "45e9a2e97dcb136d78be194d6c005ce73d030f674b9ae352174126ab76792bdf",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "lean/LeanJudge.lean",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/LEAN_JUDGE/lean_judge0/LeanJudge.lean",
+    "original_sha256": "bcb0b720b6cd6b957125d9f9bfd183b2c5869b18c843e5e34a8ba12fdf067625",
+    "published_sha256": "bcb0b720b6cd6b957125d9f9bfd183b2c5869b18c843e5e34a8ba12fdf067625",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "lean/LeanJudge/Main.lean",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/LEAN_JUDGE/lean_judge0/LeanJudge/Main.lean",
+    "original_sha256": "c2af878c3c43b9a6422e4651ccac223a0f17aeb998160e2585f5272b32955d0c",
+    "published_sha256": "c2af878c3c43b9a6422e4651ccac223a0f17aeb998160e2585f5272b32955d0c",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "lean/lake-manifest.json",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/LEAN_JUDGE/lean_judge0/lake-manifest.json",
+    "original_sha256": "0e4f1a5d14c424f55cae9618918f83af73c0b5cfb03e78fc1072718180e09780",
+    "published_sha256": "0e4f1a5d14c424f55cae9618918f83af73c0b5cfb03e78fc1072718180e09780",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "lean/lakefile.lean",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/LEAN_JUDGE/lean_judge0/lakefile.lean",
+    "original_sha256": "ec7040f11d1401bb11a856f9de6ff4cfc3040f96389f65746fe73e0facce8712",
+    "published_sha256": "ec7040f11d1401bb11a856f9de6ff4cfc3040f96389f65746fe73e0facce8712",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "lean/lean-toolchain",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/LEAN_JUDGE/lean_judge0/lean-toolchain",
+    "original_sha256": "aff3a276fcd1daa6f311e07baf168d5c0c89a3ddad4cd4e8de3e2ec779504e46",
+    "published_sha256": "aff3a276fcd1daa6f311e07baf168d5c0c89a3ddad4cd4e8de3e2ec779504e46",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "notebooks/Result-Processing.ipynb",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/Result-Processing.ipynb",
+    "original_sha256": "151a272ec265ef0658d827877949e656e05970e5aae379fbe54add789488504d",
+    "published_sha256": "66641335c0d9d603ef4b74acf9d0e6aad9a5be1ecbaf2ad2fa7bb2a7069e5128",
+    "transformation": "execution outputs cleared and local paths normalized in archived notebook"
+  },
+  {
+    "published_path": "notebooks/Results-Analyse.ipynb",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/Results-Analyse.ipynb",
+    "original_sha256": "d93e1b0026a5c773e0b29d67d77c624585257f9ef5f4a1f253d0818b902b763d",
+    "published_sha256": "294b8553039e851ae2e58ab0a07a90fc0641aaa1a0ec69722006e74ef84c05ca",
+    "transformation": "execution outputs cleared and local paths normalized in archived notebook"
+  },
+  {
+    "published_path": "notebooks/holewise_test_Lean-filtered_Seq.ipynb",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/holewise_test_Lean-filtered_Seq.ipynb",
+    "original_sha256": "13fc7120ddb8498228b8eff9e7ab17267a406bdb9b595ddb53c55393594efee3",
+    "published_sha256": "5e711b313699ed47708ef4515fc8c7c0829b216b69395c0e5cf015fa3e7ff927",
+    "transformation": "execution outputs cleared and local paths normalized in archived notebook"
+  },
+  {
+    "published_path": "notebooks/holewise_test_Sequential.ipynb",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/holewise_test_Sequential.ipynb",
+    "original_sha256": "1865346324c6db78ad4d0ade9670ec5b9726f72538e06983782e3c7ebcd29ddc",
+    "published_sha256": "4fe4cff6985d2fd60411056f6c8b1dc8f2964e7b902b03ad0a0d678bf2b2a46f",
+    "transformation": "execution outputs cleared and local paths normalized in archived notebook"
+  },
+  {
+    "published_path": "notebooks/holewise_test_parallel.ipynb",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/holewise_test_parallel.ipynb",
+    "original_sha256": "bbba29cd7fcb5b9ac91a12ff6b8b48b8b728fc3d73df72b8993cb916067cac38",
+    "published_sha256": "36fa4d2595876d0f3caf3a0febc52a5103712225162e3c935c3d9b3408dc34d4",
+    "transformation": "execution outputs cleared and local paths normalized in archived notebook"
+  },
+  {
+    "published_path": "notebooks/holewise_training.ipynb",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/holewise_training.ipynb",
+    "original_sha256": "8c4765b8315fd703efefbfcdfc9b384c079f725d8f8f47091654e2f0daf6dbc4",
+    "published_sha256": "edebc79a7db65f26507894af2eba78cb7a9697ce52776879bd8a035570cf3bc2",
+    "transformation": "execution outputs cleared and local paths normalized in archived notebook"
+  },
+  {
+    "published_path": "notebooks/sketch-FormalMATH.ipynb",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/sketch-FormalMATH.ipynb",
+    "original_sha256": "af9fc6bd2422065a316b8c6969ca0cb09ba3f8a8c1ec1aa2a49062c95b5ee515",
+    "published_sha256": "49313f0b7147d3c85d276b9e60a472f584d98c28c3bdcbc7d726db293babbaa9",
+    "transformation": "execution outputs cleared and local paths normalized in archived notebook"
+  },
+  {
+    "published_path": "results/lean-filtered-generated_all.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/test_runs/Lean_filtered_Seq_test/20260213-112100/generated_all.jsonl",
+    "original_sha256": "5300ef8d5e01e8f34dcc707c5e49e67e31c23e7f9fa749f6b2b362cad5e6ed2a",
+    "published_sha256": "7be99c013901458598f43562e1939c6732514531bc45ac28581a762ab1ea9df4",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "results/lean-filtered-holes_all.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/test_runs/Lean_filtered_Seq_test/20260213-112100/holes_all.jsonl",
+    "original_sha256": "7d94528436612e8898795b73ec8bafee5fd389db5b4518f0e447e0081a9a446f",
+    "published_sha256": "d19e1e80f02eac1949c89643df75f519ab227bb0072a34e92d6e968acd6c136e",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "results/lean-filtered-skipped_groups.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/test_runs/Lean_filtered_Seq_test/20260213-112100/skipped_groups.jsonl",
+    "original_sha256": "34c97d72ec414d86c6b1d596a5be1198b99560a483fec31989a3600d90bb721a",
+    "published_sha256": "72f6fcc1233f44c9f3f5a336856ef8da1d10513ac26a9c704e5958a499a7cebc",
+    "transformation": "host paths removed, JSONL and gzip"
+  },
+  {
+    "published_path": "results/log_history.json",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/runs/stageB_stepwise_qlora/log_history.json",
+    "original_sha256": "a730011a392493153d63f32eb182cc9045712197356bd6754a81c9b2cc787ba1",
+    "published_sha256": "a730011a392493153d63f32eb182cc9045712197356bd6754a81c9b2cc787ba1",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "results/metrics_eval.json",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/runs/stageB_stepwise_qlora/metrics_eval.json",
+    "original_sha256": "f04e89627729a1a809d5d8cdf6989bf58ebb1ad0f7a81d0c014321cf42220ef1",
+    "published_sha256": "f04e89627729a1a809d5d8cdf6989bf58ebb1ad0f7a81d0c014321cf42220ef1",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "results/parallel-verified-attempts.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/test_runs/parallel_filling_test/parallel_filling_test_results/verify_results.jsonl",
+    "original_sha256": "6ad09a32b58cccae5f31999b48fe60773af6b0826c52ff8a3d31a0378d6b0326",
+    "published_sha256": "8557c1b7603fd5d0f73a7d10d92d41fe5b91db9b46b55c95ef0dee0884a7cc30",
+    "transformation": "selected proof and verification fields, host paths removed, gzip"
+  },
+  {
+    "published_path": "results/sequential-verified-attempts.jsonl.gz",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/test_runs/Sequential_filling_test/Sequential_filling_test_results/verify_results.jsonl",
+    "original_sha256": "1e1765c96c7cbdc77630a2a69ff6b5fac00103ef3628eda765485a2d14e39468",
+    "published_sha256": "20d1be0452889fc998ef293571d9527ec578a880b130b27fa06293156be0a0b9",
+    "transformation": "selected proof and verification fields, host paths removed, gzip"
+  },
+  {
+    "published_path": "src/assemble_holes.py",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/Lean_filtered_Seq_script/20260213-112100/assemble_holes.py",
+    "original_sha256": "acc20287a2ffff3efd08a957036fcc41b790b8ac43d080a560852c1ff8db119d",
+    "published_sha256": "acc20287a2ffff3efd08a957036fcc41b790b8ac43d080a560852c1ff8db119d",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "src/build_sketch_from_data.py",
+    "original_path": "Projects/Jupyter/deepseek-prover-V2/data/build_sketch_from_data.py",
+    "original_sha256": "2f3d642403e3b39dfb9d510c6d41d5fd6daf281ee51e3f05288ec26add1f92bd",
+    "published_sha256": "2f3d642403e3b39dfb9d510c6d41d5fd6daf281ee51e3f05288ec26add1f92bd",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "src/generate_lean_filtered.py",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/Lean_filtered_Seq_script/20260213-112100/run_stepwise_generate.py",
+    "original_sha256": "0b4662957932561703aba2e83a93ea5187da55cf08732e98a50d0af9d833fb4b",
+    "published_sha256": "0b4662957932561703aba2e83a93ea5187da55cf08732e98a50d0af9d833fb4b",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "src/generate_parallel.py",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/Parallel_filling_script/20260209-075439/run_stepwise_generate.py",
+    "original_sha256": "1179980b2cdbdee6f2512684903fbbc046b4b591aded3350d97a60d34ee792f2",
+    "published_sha256": "1179980b2cdbdee6f2512684903fbbc046b4b591aded3350d97a60d34ee792f2",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "src/generate_sequential.py",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/Sequential_filling_script/20260210-220737/run_stepwise_generate.py",
+    "original_sha256": "290e4b3860734fe96bf1a9e2ede413e4dcee0a26d328047e3f10bb365bdb8039",
+    "published_sha256": "290e4b3860734fe96bf1a9e2ede413e4dcee0a26d328047e3f10bb365bdb8039",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "src/merge_jsonl_shards.py",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/Lean_filtered_Seq_script/20260213-112100/merge_jsonl_shards.py",
+    "original_sha256": "bd3e44fd82157a0937ef6cbd9c299863bdcceef9fcabc2da8aad7a976d7485da",
+    "published_sha256": "bd3e44fd82157a0937ef6cbd9c299863bdcceef9fcabc2da8aad7a976d7485da",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "src/run_lean_verify.py",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/Lean_filtered_Seq_script/20260213-112100/run_lean_verify.py",
+    "original_sha256": "01e406b2c514d6710ca35f445dd6e05f8d71a4e150b50796a8ca23ea83937fe6",
+    "published_sha256": "01e406b2c514d6710ca35f445dd6e05f8d71a4e150b50796a8ca23ea83937fe6",
+    "transformation": "unchanged"
+  },
+  {
+    "published_path": "src/train_stepwise_sft.py",
+    "original_path": "Projects/Jupyter/SketchFill/holewise_training_2/train_stepwise_sft.py",
+    "original_sha256": "e39724454e55192e2bb97ceae651e483f1142015a79dd80109af3c26451352f6",
+    "published_sha256": "e39724454e55192e2bb97ceae651e483f1142015a79dd80109af3c26451352f6",
+    "transformation": "unchanged"
+  }
+]
