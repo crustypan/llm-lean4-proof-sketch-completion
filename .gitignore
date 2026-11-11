@@ -1,17 +1,52 @@
-work/
+# New experiments, raw data, and local outputs.
+# Keep the curated .jsonl.gz archives in data/ and results/.
+/work/
+/runs/
+/test_runs/
+/data/raw/
+/data/private/
+/results/raw/
+/results/local/
+/*.jsonl
+/data/*.jsonl
+/results/*.jsonl
+lean_files/
+wandb/
+events.out.tfevents.*
+*.log
+
+# Model weights, checkpoints, and download caches.
+checkpoint-*/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+hf_cache/
+hfcache/
+.cache/
+
+# Local environment, Python, notebooks, and Lean build products.
 .venv/
 venv/
 env/
-.cache/
-.lake/
 __pycache__/
+*.py[cod]
+.pytest_cache/
 .ipynb_checkpoints/
-*.pyc
+.lake/
 *.olean
-*.safetensors
-*.pt
-*.bin
-checkpoint-*/
-hf_cache/
-hfcache/
+*.ilean
+
+# Machine-local configuration and credentials.
+.env
+.env.*
+/configs/local.*
+/secrets/
+.ssh/
+id_rsa
+id_ed25519
+*.pem
+*.key
 .DS_Store
+._*
