@@ -123,7 +123,7 @@ The assembly log recorded 739 of 955 groups with all expected indices and skippe
 | [Derived data](data/) and [saved results](results/) | Compressed training and test splits, candidate proof code and attempt verdicts, summary counts, and selected training metrics. |
 | [Documentation and figures](docs/) and [earlier experiments](history/) | Conference material, reproduction commands, source provenance, and compact evidence of the project’s development. |
 
-Keep raw proof dumps, server-only data, adapter weights, checkpoints, local credentials, and new run outputs in local or research storage. The reproduction commands write new files under `work/`. The ignore rules also cover environments, Lean build products, and caches. [Ignore rules](.gitignore) · [File-level provenance](docs/source-manifest.json)
+Keep raw proof dumps, server-only data, adapter weights, checkpoints, local credentials, and new run outputs in local or research storage. The reproduction commands write new files under `work/`. The ignore rules also cover environments, Lean build products, and caches. [Ignore rules](.gitignore) · [File-level provenance](docs/source-manifest.json) · [Third-party notices](docs/third-party-notices.md)
 
 ## Reproduce the study
 
